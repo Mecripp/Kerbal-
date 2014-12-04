@@ -1,0 +1,844 @@
+// Part or All Mod's covered
+// 
+// RemoteTech2
+// Squad
+// Hyomoto Aerospace
+// Dmagic
+// DongFangHong
+// FASA By Frizzank & APOLLO By DennyTX
+// NovaPunch
+// Telemachus
+// Lionhead
+// AIES
+// LLL-Lite
+// Tantares
+// HGR
+// RemoteTech2 To AntennaRange
+// MWIndustries 
+//UmbraSpaceIndustries
+
+@PART[RTShortAntenna1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+}
+
+@PART[RTLongAntenna2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[RTLongAntenna3]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[RTShortDish1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 45000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 15.0
+	        requiredResource = ElectricCharge
+	}
+}
+
+@PART[RTShortDish2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 45000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 15.0
+    	        requiredResource = ElectricCharge
+	}
+}
+
+@PART[RTLongDish1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 300000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 20.0
+	        requiredResource = ElectricCharge
+
+	}
+}
+
+@PART[RTLongDish2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 30000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 20.0
+	        requiredResource = ElectricCharge
+
+	}
+}
+
+@PART[RTGigaDish1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 200000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 20.0
+	        requiredResource = ElectricCharge
+
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[RTGigaDish2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 175000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 20.0
+	        requiredResource = ElectricCharge
+
+	}
+}
+
+// Some More Squad
+
+@PART[avionicsNoseCone]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+}
+
+@PART[longAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[mediumDishAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 15000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	        ProgressFxModules = 1
+	}
+}
+
+@PART[commDish]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 40000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+
+// Aerospace Parts By Hyomoto
+
+@PART[bladeAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+// Dmagic rpwsAnt
+
+@PART[rpwsAnt]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 3250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[USRPWS]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 3250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+// DongFangHong BY SimonArtisan
+
+@PART[DongFangHong_1_antenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+// FASA By Frizzank & APOLLO By DennyTX
+
+@PART[LM_Antenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 25000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[FASAExplorerProbe]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[FASAAgenaAnt]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[FASAGeminiAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[FASALM_Antenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[Apollo_SM_Dish]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 25000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[FASAApollo_SM_Dish]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 25000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+// NovaPunch By NovaSilisko | Tiberion 
+
+@PART[NP_ThorLanderRCS]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1500
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+}
+
+//  Telemachus By Rich
+
+@PART[fustekAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 15000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[ant]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 3000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+// Lionhead Aerospace By Yogui87 
+
+@PART[LH_Hermes]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 30000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_Kerbnik]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_MunarOrbiter]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 25000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_Zeus]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 25000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_EveraPod]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[EveraOrbiter]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[DSL_Pod]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_Atlas]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 30000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[LH_AtlasLander]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+
+
+
+
+// AIES By Carmics 
+
+@PART[Antennacomtec1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 4500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Antennacomtec2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 8000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Antennaesc]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 3000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Antennaexpatvr2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 4500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[AntennaDF2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Dishcl1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 45000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Dishmccomu]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 30000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[dishcomlar1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 200000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Dishomega2g]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 30000000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+@PART[Dishpcf]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 22500000000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+	}
+}
+
+// LLL-Lite By Lack 
+
+@PART[LLLCommPole]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[Commtow]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+//Tantares 
+
+@PART[Libra_AntennaModule_1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+
+@PART[Tantares_AntennaModule_1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+	}
+}
+//HGR
+
+@PART[HGRSolarPanels1]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1250000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+}
+// MWIndustries
+
+@PART[MWIAntennaRotateMK2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[MWIAntennaRotateMK3]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 3500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[MWITransmitterHeavy]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 1500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+//UmbraSpaceIndustries
+ 
+@PART[MKS_HubAntenna]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 5500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+//US_PARTS
+
+@PART[US_R200_EVA_EVAX]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 125000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+
+        RESOURCE
+        {
+	name = ElectricCharge
+	amount = 200
+	maxAmount = 200
+        }
+
+}
+
+////// Just Some Parts
+
+@PART[radioreceiver]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 125000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+
+        RESOURCE
+        {
+	name = ElectricCharge
+	amount = 200
+	maxAmount = 200
+        }
+
+}
+
+@PART[Radio2]
+{
+	%MODULE[ModuleDataTransmitter]
+	{
+		%name = ModuleLimitedDataTransmitter
+		nominalRange = 125000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+                packetResourceCost = 10.0
+	        requiredResource = ElectricCharge
+	}
+
+        RESOURCE
+        {
+	name = ElectricCharge
+	amount = 200
+	maxAmount = 200
+        }
+
+}
+
+    
+
+
+
+
+
