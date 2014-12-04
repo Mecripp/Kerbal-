@@ -17,7 +17,7 @@
 // MWIndustries 
 //UmbraSpaceIndustries
 
-@PART[RTShortAntenna1]
+@PART[RTShortAntenna1]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -30,7 +30,7 @@
 	}
 }
 
-@PART[RTLongAntenna2]
+@PART[RTLongAntenna2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -45,7 +45,7 @@
 	}
 }
 
-@PART[RTLongAntenna3]
+@PART[RTLongAntenna3]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -60,7 +60,7 @@
 	}
 }
 
-@PART[RTShortDish1]
+@PART[RTShortDish1]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -73,7 +73,7 @@
 	}
 }
 
-@PART[RTShortDish2]
+@PART[RTShortDish2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -86,7 +86,7 @@
 	}
 }
 
-@PART[RTLongDish1]
+@PART[RTLongDish1]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -100,7 +100,7 @@
 	}
 }
 
-@PART[RTLongDish2]
+@PART[RTLongDish2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -114,7 +114,7 @@
 	}
 }
 
-@PART[RTGigaDish1]
+@PART[RTGigaDish1]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -130,7 +130,7 @@
 	}
 }
 
-@PART[RTGigaDish2]
+@PART[RTGigaDish2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -146,7 +146,7 @@
 
 // Some More Squad
 
-@PART[avionicsNoseCone]
+@PART[avionicsNoseCone]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -159,11 +159,11 @@
 	}
 }
 
-@PART[longAntenna]
+@PART[longAntenna]:AFTER[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 1250000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -172,11 +172,11 @@
 	}
 }
 
-@PART[mediumDishAntenna]
+@PART[mediumDishAntenna]:AFTER[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 15000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -186,11 +186,11 @@
 	}
 }
 
-@PART[commDish]
+@PART[commDish]:AFTER[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 40000000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -202,7 +202,7 @@
 
 // Aerospace Parts By Hyomoto
 
-@PART[bladeAntenna]
+@PART[bladeAntenna]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -215,7 +215,7 @@
 
 // Dmagic rpwsAnt
 
-@PART[rpwsAnt]
+@PART[rpwsAnt]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -228,7 +228,7 @@
 	}
 }
 
-@PART[USRPWS]
+@PART[USRPWS]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -243,11 +243,11 @@
 
 // DongFangHong BY SimonArtisan
 
-@PART[DongFangHong_1_antenna]
+@PART[DongFangHong_1_antenna]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 1250000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -258,11 +258,11 @@
 
 // FASA By Frizzank & APOLLO By DennyTX
 
-@PART[LM_Antenna]
+@PART[LM_Antenna]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 25000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -272,11 +272,11 @@
 	}
 }
 
-@PART[FASAExplorerProbe]
+@PART[FASAExplorerProbe]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -285,11 +285,11 @@
 	}
 }
 
-@PART[FASAAgenaAnt]
+@PART[FASAAgenaAnt]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 2500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -298,25 +298,11 @@
 	}
 }
 
-@PART[FASAGeminiAntenna]
+@PART[FASAGeminiAntenna]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
-		nominalRange = 2500000
-		maxPowerFactor = 8
-		maxDataFactor = 4
-
-                DeployFxModules = 0
-		ProgressFxModules = 1
-	}
-}
-
-@PART[FASALM_Antenna]
-{
-	%MODULE[ModuleDataTransmitter]
-	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 2500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -326,11 +312,25 @@
 	}
 }
 
-@PART[Apollo_SM_Dish]
+@PART[FASALM_Antenna]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
+		nominalRange = 2500000
+		maxPowerFactor = 8
+		maxDataFactor = 4
+
+                DeployFxModules = 0
+		ProgressFxModules = 1
+	}
+}
+
+@PART[Apollo_SM_Dish]:FOR[AntennaRange]
+{
+	MODULE[ModuleDataTransmitter]
+	{
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 25000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -340,7 +340,7 @@
 	}
 }
 
-@PART[FASAApollo_SM_Dish]
+@PART[FASAApollo_SM_Dish]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -356,7 +356,7 @@
 
 // NovaPunch By NovaSilisko | Tiberion 
 
-@PART[NP_ThorLanderRCS]
+@PART[NP_ThorLanderRCS]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -371,7 +371,7 @@
 
 //  Telemachus By Rich
 
-@PART[fustekAntenna]
+@PART[fustekAntenna]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -385,7 +385,7 @@
 	}
 }
 
-@PART[ant]
+@PART[ant]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -398,7 +398,7 @@
 
 // Lionhead Aerospace By Yogui87 
 
-@PART[LH_Hermes]
+@PART[LH_Hermes]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -412,7 +412,7 @@
 	}
 }
 
-@PART[LH_Kerbnik]
+@PART[LH_Kerbnik]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -426,7 +426,7 @@
 	}
 }
 
-@PART[LH_MunarOrbiter]
+@PART[LH_MunarOrbiter]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -440,7 +440,7 @@
 	}
 }
 
-@PART[LH_Zeus]
+@PART[LH_Zeus]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -454,7 +454,7 @@
 	}
 }
 
-@PART[LH_EveraPod]
+@PART[LH_EveraPod]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -468,7 +468,7 @@
 	}
 }
 
-@PART[EveraOrbiter]
+@PART[EveraOrbiter]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -482,7 +482,7 @@
 	}
 }
 
-@PART[DSL_Pod]
+@PART[DSL_Pod]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -496,7 +496,7 @@
 	}
 }
 
-@PART[LH_Atlas]
+@PART[LH_Atlas]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -510,7 +510,7 @@
 	}
 }
 
-@PART[LH_AtlasLander]
+@PART[LH_AtlasLander]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -530,44 +530,44 @@
 
 // AIES By Carmics 
 
-@PART[Antennacomtec1]
+@PART[Antennacomtec1]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 4500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Antennacomtec2]
+@PART[Antennacomtec2]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 8000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Antennaesc]
+@PART[Antennaesc]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 3000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Antennaexpatvr2]
+@PART[Antennaexpatvr2]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 4500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -576,66 +576,66 @@
 	}
 }
 
-@PART[AntennaDF2]
+@PART[AntennaDF2]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 250000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Dishcl1]
+@PART[Dishcl1]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 45000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Dishmccomu]
+@PART[Dishmccomu]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 30000000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[dishcomlar1]
+@PART[dishcomlar1]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 200000000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Dishomega2g]
+@PART[Dishomega2g]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 30000000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
 	}
 }
 
-@PART[Dishpcf]
+@PART[Dishpcf]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 22500000000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -644,11 +644,11 @@
 
 // LLL-Lite By Lack 
 
-@PART[LLLCommPole]
+@PART[LLLCommPole]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 2500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -657,11 +657,11 @@
 	}
 }
 
-@PART[Commtow]
+@PART[Commtow]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 2500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -671,11 +671,11 @@
 }
 //Tantares 
 
-@PART[Libra_AntennaModule_1]
+@PART[Libra_AntennaModule_1]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 1500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -684,11 +684,11 @@
 	}
 }
 
-@PART[Tantares_AntennaModule_1]
+@PART[Tantares_AntennaModule_1]:FOR[AntennaRange]
 {
-	%MODULE[ModuleDataTransmitter]
+	MODULE[ModuleDataTransmitter]
 	{
-		%name = ModuleLimitedDataTransmitter
+		name = ModuleLimitedDataTransmitter
 		nominalRange = 1500000
 		maxPowerFactor = 8
 		maxDataFactor = 4
@@ -698,7 +698,7 @@
 }
 //HGR
 
-@PART[HGRSolarPanels1]
+@PART[HGRSolarPanels1]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -712,7 +712,7 @@
 }
 // MWIndustries
 
-@PART[MWIAntennaRotateMK2]
+@PART[MWIAntennaRotateMK2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -726,7 +726,7 @@
 	}
 }
 
-@PART[MWIAntennaRotateMK3]
+@PART[MWIAntennaRotateMK3]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -740,7 +740,7 @@
 	}
 }
 
-@PART[MWITransmitterHeavy]
+@PART[MWITransmitterHeavy]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -755,7 +755,7 @@
 }
 //UmbraSpaceIndustries
  
-@PART[MKS_HubAntenna]
+@PART[MKS_HubAntenna]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
@@ -771,12 +771,12 @@
 
 //US_PARTS
 
-@PART[US_R200_EVA_EVAX]
+@PART[US_R200_EVA_EVAX]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
 		%name = ModuleLimitedDataTransmitter
-		nominalRange = 125000
+		nominalRange = 5000
 		maxPowerFactor = 8
 		maxDataFactor = 4
                 packetResourceCost = 10.0
@@ -794,12 +794,12 @@
 
 ////// Just Some Parts
 
-@PART[radioreceiver]
+@PART[radioreceiver]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
 		%name = ModuleLimitedDataTransmitter
-		nominalRange = 125000
+		nominalRange = 5000
 		maxPowerFactor = 8
 		maxDataFactor = 4
                 packetResourceCost = 10.0
@@ -815,12 +815,12 @@
 
 }
 
-@PART[Radio2]
+@PART[Radio2]:FOR[AntennaRange]
 {
 	%MODULE[ModuleDataTransmitter]
 	{
 		%name = ModuleLimitedDataTransmitter
-		nominalRange = 125000
+		nominalRange = 5000
 		maxPowerFactor = 8
 		maxDataFactor = 4
                 packetResourceCost = 10.0
