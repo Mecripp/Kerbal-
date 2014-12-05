@@ -161,7 +161,7 @@
 
 @PART[longAntenna]:AFTER[AntennaRange]
 {
-	MODULE[ModuleDataTransmitter]
+	@MODULE[ModuleDataTransmitter]
 	{
 		name = ModuleLimitedDataTransmitter
 		nominalRange = 1250000
@@ -174,7 +174,7 @@
 
 @PART[mediumDishAntenna]:AFTER[AntennaRange]
 {
-	MODULE[ModuleDataTransmitter]
+	@MODULE[ModuleDataTransmitter]
 	{
 		name = ModuleLimitedDataTransmitter
 		nominalRange = 15000000
@@ -188,7 +188,7 @@
 
 @PART[commDish]:AFTER[AntennaRange]
 {
-	MODULE[ModuleDataTransmitter]
+	@MODULE[ModuleDataTransmitter]
 	{
 		name = ModuleLimitedDataTransmitter
 		nominalRange = 40000000000
